@@ -1,0 +1,33 @@
+# ============================================================
+#  requirements.txt — Facial Emotion Detection System
+#  Install with:  pip install -r requirements.txt
+# ============================================================
+
+# Core deep learning framework
+tensorflow>=2.12.0,<2.16.0    # CPU-compatible; use tensorflow-cpu for lighter install
+
+# Computer vision
+opencv-python>=4.7.0
+
+# Numerical computing
+numpy>=1.23.0
+
+# Machine learning utilities (train/test split)
+scikit-learn>=1.2.0
+
+# Plotting (training history)
+matplotlib>=3.7.0
+
+# GUI — Tkinter ships with Python standard library (no install needed)
+# If missing on Linux: sudo apt-get install python3-tk
+
+# Optional: progress bars in terminal
+tqdm>=4.65.0
+
+# Optional: Streamlit web UI
+# streamlit>=1.28.0
+
+# ============================================================
+#  CPU-only users: replace tensorflow with tensorflow-cpu
+#  pip install tensorflow-cpu>=2.12.0
+# ============================================================
